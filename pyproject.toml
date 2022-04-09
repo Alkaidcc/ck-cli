@@ -1,11 +1,14 @@
 [tool.poetry]
 name = "ck-cli"
 version = "0.1.0"
-description = ""
+description = "CLI for AutoCheckTool"
 authors = ["Alkaidcc <932214806@qq.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.7"
+click = "^8.1.2"
+wcwidth = "^0.2.5"
+prompt-toolkit = "^3.0.29"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
